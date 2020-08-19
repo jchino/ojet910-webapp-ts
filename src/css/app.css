@@ -1,0 +1,15 @@
+@charset "UFT-8";
+.demo-oracle-icon {
+  width: 137px;
+  height: 18px;
+}
+.demo-oracle-icon:before {
+  content: url("images/oracle_logo.svg");
+  display: inline;
+}
+html[dir="rtl"] .demo-oracle-icon {
+  padding-left: 4px;
+}
+html:not([dir="rtl"]) .demo-oracle-icon {
+  padding-right: 4px;
+}
